@@ -38,7 +38,19 @@ Routing HTTP Requests
 Building From Source Code
 
 
+Logging in Via the Web Console
 
+Logging in Via the Command Line
+
+	oc login
+
+	oc whoami
+
+	oc whoami --show-server
+
+	oc get projects
+
+	
 
 
 
