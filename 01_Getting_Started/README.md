@@ -1,11 +1,11 @@
 https://learn.openshift.com/introduction/getting-started/
 
-#Logging with CLI
+# Logging with CLI
 
-##oc login
+## oc login
 	developer, developer
 
-##oc whoami
+## oc whoami
 
 	
 
