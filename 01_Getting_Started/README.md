@@ -1,19 +1,19 @@
 https://learn.openshift.com/introduction/getting-started/
 
 # Logging with CLI
-
-## oc login
+```
+oc login
 	developer, developer
 
-## oc whoami
-
+oc whoami
+```
 	
 
 Logging with Web Console
 
-	Create a Project
+Create a Project
 
-	Explore the Developer and Administrator views	
+		Explore the Developer and Administrator views	
 
 Go back to the CLI console 
 
@@ -50,7 +50,9 @@ Logging in Via the Command Line
 
 	oc get projects
 
-	
+	public static void main(){
+		
+	}
 
 
 
