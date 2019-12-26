@@ -1,32 +1,35 @@
-https://learn.openshift.com/introduction/getting-started/
+# [Getting Started with Openshift for Developers](https://learn.openshift.com/introduction/getting-started/)
 
-# Logging with CLI
-```
-oc login
-	developer, developer
+## Logging with CLI
 
-oc whoami
-```
+	oc login
+		developer, developer
+
+	oc whoami
+
 	
 
-Logging with Web Console
+## Logging with Web Console
 
 Create a Project
 
-		Explore the Developer and Administrator views	
+	Explore the Developer and Administrator views	
 
 Go back to the CLI console 
 
-	create a new project using CLI
-		oc new-project mysecondproject --display-name='My Second Project' --description='This is my Second Project'
+create a new project using CLI
+
+	oc new-project mysecondproject --display-name='My Second Project' --description='This is my Second Project'
 
 
-		Optional
-		oc new-app django-psql-example
+Optional
 
-		kubectl create deployment hello-node --image=gcr.io/hello-minikube-zero-install/hello-node
+	oc new-app django-psql-example
+
+	kubectl create deployment hello-node --image=gcr.io/hello-minikube-zero-install/hello-node
 
 Deploying a Docker Image
+	
 	docker.io/openshiftroadshow/parksmap-katacoda:1.2.0
 
 
@@ -42,13 +45,13 @@ Logging in Via the Web Console
 
 Logging in Via the Command Line
 
-	oc login
+1. oc login
 
-	oc whoami
+1. oc whoami
 
-	oc whoami --show-server
+1. oc whoami --show-server
 
-	oc get projects
+		oc get projects
 
 ```java
 
@@ -56,7 +59,11 @@ Logging in Via the Command Line
 
 	}
 ```
+	public static void main(){
+
+	}
 
 
-
+I think you should use an
+`<addr>` element here instead.
 
